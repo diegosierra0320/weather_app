@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
+.image_load {
+    height: 100vh;
+}
+
+.App {
+    background-image: url(https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgba(158, 162, 172, 0.75);
+    color: black;
+    text-align: center;
+    padding: 1em;
+    border-radius: 1em;
+    width: 300px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.card_title {
+    font-size: 35px;
+}
+
+.card_info {
+    display: flex;
+}
+
+.card_temperture {
+    font-size: 60px;
+    width: 50%;
+}
+
+p {
+    margin-bottom: 0;
+    margin-top:.4em;
+}
+
+.card_btn {
+    padding: 0.5em;
+    margin-top: 3em;
+    box-shadow: 1px 1px 10px black;
+    cursor: pointer;
+    border-radius: 0.7em;
+    background-color: #607EAA;
+    color: aliceblue;
+}
+
+.card_clouds {
+    width: 50%;
+}
+
+h3 {
+    margin: 0;
+    margin-top: -1em;
+}
+
+.img_clouds {
+    width: 140px;
+}
+
+.card_list {
+    list-style: none;
+    padding: 1em;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: .4em;
+    display: flex;
+}
+
+.card_clouds h3 {
+    font-size: 20px;
+}
+
+.card_list hr {
+    height: 30px; 
+}
